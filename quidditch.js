@@ -10,7 +10,13 @@
  */
 
 // your code goes here
-
+function hasEnoughPlayers(arrayInstance) {
+    if (arrayInstance.length >= 7) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
 
 // test code
